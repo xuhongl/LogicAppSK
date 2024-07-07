@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\xuhliu\\OneDrive - Microsoft\\AAA_FY25\\SKProject\\SKProject.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\xuhliu\\OneDrive - Microsoft\\AAA_FY25\\SKProject\\SKProject.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\xuhliu\\OneDrive - Microsoft\\AAA_FY25\\SKProject\\SKProject.csproj",
+        "projectName": "SKProject",
+        "projectPath": "C:\\Users\\xuhliu\\OneDrive - Microsoft\\AAA_FY25\\SKProject\\SKProject.csproj",
+        "packagesPath": "C:\\Users\\xuhliu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\xuhliu\\OneDrive - Microsoft\\AAA_FY25\\SKProject\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\xuhliu\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Identity.Client": {
+              "target": "Package",
+              "version": "[4.61.3, )"
+            },
+            "Microsoft.SemanticKernel": {
+              "target": "Package",
+              "version": "[1.15.0, )"
+            },
+            "Microsoft.SemanticKernel.Plugins.OpenApi": {
+              "target": "Package",
+              "version": "[1.6.3-alphaclear, )"
+            },
+            "Microsoft.SemanticKernel.Plugins.Web": {
+              "target": "Package",
+              "version": "[1.14.1-alpha, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
